@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema id="org.gnome.shell.extensions.backup-before-shutdown"
-          path="/org/gnome/shell/extensions/backup-before-shutdown/">
+  <schema id="org.gnome.shell.extensions.pre-shutdown-scripts"
+          path="/org/gnome/shell/extensions/pre-shutdown-scripts/">
     <key name="scripts-json" type="s">
       <default>"[]"</default>
       <summary>Scripts list (JSON)</summary>
-      <description>JSON array of objects with name and command fields</description>
+      <description>JSON array of objects with name and file path fields</description>
     </key>
   </schema>
 </schemalist>
