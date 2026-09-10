@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@girs/gjs": "^4.7.0",
+    "@girs/gnome-shell": "^50.0.4",
+    "typescript": "^7.0.2"
+  }
+}

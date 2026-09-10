@@ -1,0 +1,73 @@
+.scripts-status-error {
+    color: #f44336;
+}
+
+.scripts-progress-dialog {
+    min-width: 500px;
+    max-width: 500px;
+    padding: 12px;
+}
+
+.scripts-list {
+    background-color: #242424;
+    border-radius: 8px;
+    padding: 4px;
+    margin-top: 12px;
+}
+
+.scripts-expander-row {
+    border-spacing: 0;
+    margin: 2px 0;
+}
+
+.scripts-expander-row-header {
+    padding: 8px 12px;
+    border-radius: 4px;
+    min-height: 32px;
+    transition: background-color 200ms ease;
+}
+
+.scripts-expander-row-header:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+.scripts-expander-row-content {
+    padding: 0;
+    margin: 0;
+}
+
+.scripts-output-box {
+    padding: 8px 12px;
+    background-color: #1a1a1a;
+    border-radius: 0 0 4px 4px;
+}
+
+.scripts-output-scroll {
+    max-height: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+.scripts-output-text {
+    font-family: Monospace;
+    font-size: 11px;
+    color: #aaaaaa;
+}
+
+.scripts-success-icon {
+    color: #4caf50;
+}
+
+.scripts-error-icon {
+    color: #f44336;
+}
+
+.scripts-status-label {
+    margin-top: 12px;
+    color: #cccccc;
+    font-size: 12px;
+}
+
+process-working-symbolic {
+    transition: transform 100ms ease;
+}

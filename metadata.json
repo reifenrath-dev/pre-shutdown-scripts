@@ -1,0 +1,8 @@
+{
+    "uuid": "pre-shutdown-scripts@reifenrath-dev",
+    "name": "Pre-Shutdown Scripts",
+    "description": "Shows a dialog, after clicking 'Power Off...' to optionally run custom scripts before shutting down",
+    "shell-version": ["50"],
+    "version": 1,
+    "settings-schema": "org.gnome.shell.extensions.pre-shutdown-scripts"
+}
